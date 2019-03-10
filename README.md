@@ -10,3 +10,6 @@ step 2:
 		pip install pyAudio
 		pip install portaudio
 		pip install SpeechRecognition
+		pip install bs4
+		pip install request
+		pip install lxml
