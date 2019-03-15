@@ -21,3 +21,12 @@ def speech():
         return s
     except Exception as e:
         print("Exception: "+str(e))
+
+
+def song():
+    filename="father.mp3"
+    music = pyglet.resource.media(filename,streaming = False)
+    music.play()
+
+if __name__ == "__main__":
+    song()
